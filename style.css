@@ -2,36 +2,35 @@ body {
     
 }
 
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .title {
     text-align: center;
     margin-top: 70px;
     font-family: garamond;
     font-size: 100px;
+    margin-bottom: 60px;
+
 }
 
-a {
-    
+.quote1 {
+    text-align: center;
+    font-family: garamond;
+    font-size: 50px;
+    /* letter-spacing: 5px; */
 }
 
-.buy-button {
-    color:red;
-    background-color: cyan;
-    border: none;
-    height: 30px;
+.quote2 {
+    text-align: center;
+    font-family: garamond;
+    font-size: 50px;
+}
+
+img {
     width: 300px;
-    border-radius: 2px;
-    cursor: pointer
-    /* transition: opacity 1s; can't do it*/
-}
-
-.buy-button:hover {
-    opacity: 0.5;
-}
-
-.add-to-cart {
-    background-color: darkorange;
-    border-color: brown;
-    border-style: dashed;
-    border-width: 30px;
-    margin-top: 50px;
+    height: 300px;
+    object-fit: contain;
 }
