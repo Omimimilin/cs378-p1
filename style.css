@@ -68,6 +68,8 @@ p {
     box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
     cursor: pointer;
     width: 55px;
+    background-color: rgb(29, 132, 29);
+    color:white;
 }
 
 .row {
